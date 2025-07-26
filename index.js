@@ -11,6 +11,7 @@ const app = express();
 // ✅ Allowed frontend URLs
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://premiumhub.nikhildev.in/",
   "https://create-mod.netlify.app",
 ];
 
