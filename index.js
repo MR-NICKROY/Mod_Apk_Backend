@@ -35,7 +35,7 @@ app.use(express.json());
 
 // Test route
 
-app.use("/", appRoutes);
+app.use("/app", appRoutes);
 
 // MongoDB connection
 const connectDB = async () => {
