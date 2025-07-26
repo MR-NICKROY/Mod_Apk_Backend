@@ -34,10 +34,8 @@ app.use(
 app.use(express.json());
 
 // Test route
-app.get("/", (req, res) => {
-  res.send("AppUnlocker Backend is running ✅");
-});
-app.use("/app", appRoutes);
+
+app.use("/", appRoutes);
 
 // MongoDB connection
 const connectDB = async () => {
